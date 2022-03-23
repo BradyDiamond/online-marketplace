@@ -9,7 +9,40 @@
 </head>
 <body>
   <div class="container">
-    
+    <h1>Welcome to Our Market!</h1>
+    <form id="name">
+      <div class="form-group">
+        <label for="name1">Enter Your <em>First</em> Name</label>
+        <input id="name1" class="form-control" type="text">
+        <label for="name2">Enter Your <em>Last</em> Name</label>
+        <input id="name2" class="form-control" type="text">
+      </div>
+      <div class="radio">
+        <h2>What kind of ice cream would you like today?</h2>
+        <label>
+          <input type="radio" name="flavor" value="chocolate" checked>
+          Chocolate
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="vanilla">
+          Vanilla
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="cookies and cream">
+          Cookies & Cream
+        </label>
+      </div>
+      <button type="submit" class="btn-dark">View Purchase</button>
+      <div id="output">
+  
+      </div>
+      
+    </form>
+
   </div>
 </body>
 </html>
