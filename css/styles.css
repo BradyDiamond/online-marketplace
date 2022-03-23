@@ -1,15 +1,17 @@
 body{
   background-color: rgba(127, 255, 212, 0.527);
   color: rgb(156, 117, 17);
-  font-family:'Times New Roman', Times, serif;
 }
 
 h1 {
-  font-family:'Times New Roman', Times, serif;
+  margin-top: .5in;
+  font-family: 'Bungee Shade', cursive;
+  text-align: center;
 }
 
 p {
   display: none;
+  text-align: center;
 }
 #output {
   display: none;
