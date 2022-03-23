@@ -13,6 +13,7 @@ $(document).ready(function() {
     const firstName = $("#name1").val();
     const lastName = $("#name2").val();
     const result = (firstName + " " + lastName);
-    $("#output").text(result + " - " + flavor.toUpperCase());
+    $("#output").text(result + " - " + flavor.toUpperCase() + " " + "Thank you for your purchase!");
+    $("#output").show();
   });
 });
